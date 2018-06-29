@@ -6,49 +6,52 @@ const drinks = [
     name: 'Butter Beer',
     brand: 'Hogs Meade Tavern',
     price: '$6',
-    alcohol content: '5.7',
+    alcoholContent: '5.7',
 
   },
   {
     name: 'Wynne Jones',
     brand: 'Brewery in the Sky',
     price: '$5',
-    alcohol content: '5.9'
+    alcoholContent: '5.9'
   },
   {
     name: 'Gobsmack Gaiman',
     brand: 'Brewery at the End of the Lane',
     price: '$8',
-    alcohol content: '4.3'
+    alcoholContent: '4.3'
   },
   {
     name: 'Portland Primer',
     brand: 'Duck Tales',
     price: '$6.50',
-    alcohol content: '5.5'
+    alcoholContent: '5.5'
   },
   {
     name: 'TBD',
     brand: 'DawnrParty',
     price: '$4',
-    alcohol content: '5.9'
+    alcoholContent: '5.9'
   },
   {
-    name: 'Mustard's Maginks',
+    name: 'Mustards Maginks',
     brand: 'DawnrParty',
     price: '$8',
-    alcohol content: '4.3'
+    alcoholContent: '4.3'
   }
 ];
+
 
 function DrinkList() {
   return(
     <div>
-      {thedudes.map((drink, index) =>
+      {drinks.map((drink, index) =>
         <div>
           <Author
             name={drink.name}
-            image={drink.image}
+            brand={drink.brand}
+            price={drink.price}
+            alcoholContent={drink.alcoholContent}
             key={index}
           />
         </div>
