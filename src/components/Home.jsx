@@ -12,7 +12,7 @@ function Home() {
             margin: auto;
             color: white;
             background-image: url(${bar});
-            height: 2000px;
+            height: 2000px; padding: 50px;
           }
            `
         }</style>
