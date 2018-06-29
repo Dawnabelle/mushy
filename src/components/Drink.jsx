@@ -18,6 +18,7 @@ function Drink(props){
         <p>{props.brand}</p>
         <p>{props.price}</p>
         <p>{props.alcoholContent}</p>
+        <p>{props.pintsRemaining}</p>
       </div>
     </div>
   );
