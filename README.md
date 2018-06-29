@@ -5,6 +5,9 @@
 #### _React Epicodus Code Review_
 _React - Week 1 React Fundamentals: Tap Room Makeover_
 
+<div style="text-align:center"><img src="src/assets/beer-bottle-makeover.png" alt="spock with visor" width="300"></div>
+
+
 View _[New Taproom](https://dawnabelle.github.io/taproom-makeover/)_ online
 
 ### <span style="color: coral">Dawn Mott</span> :sunrise_over_mountains:
