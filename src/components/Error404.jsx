@@ -16,6 +16,12 @@ function Error404(props) {
           background-image: url(${stars});
           height: 2000px;
         }
+        .img {
+          border-radius: 50%;
+          object-fit:cover;
+          width: 50%;
+          padding-top: 50px;
+        }
          `
       }
     </style>
