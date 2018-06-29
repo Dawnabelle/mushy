@@ -18,7 +18,7 @@ function Home() {
         }</style>
     </div>
 
-    <h1>Jessica Fletcher's Famous</h1>
+    <h1>Cabot Cove's Finest</h1>
     <NavBar/>
   </div>);
 }
