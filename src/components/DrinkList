@@ -1,0 +1,60 @@
+import React from 'react';
+import Drink from './Drink';
+
+const drinks = [
+  {
+    name: 'Butter Beer',
+    brand: 'Hogs Meade Tavern',
+    price: '$6',
+    alcohol content: '5.7',
+
+  },
+  {
+    name: 'Wynne Jones',
+    brand: 'Brewery in the Sky',
+    price: '$5',
+    alcohol content: '5.9'
+  },
+  {
+    name: 'Gobsmack Gaiman',
+    brand: 'Brewery at the End of the Lane',
+    price: '$8',
+    alcohol content: '4.3'
+  },
+  {
+    name: 'Portland Primer',
+    brand: 'Duck Tales',
+    price: '$6.50',
+    alcohol content: '5.5'
+  },
+  {
+    name: 'TBD',
+    brand: 'DawnrParty',
+    price: '$4',
+    alcohol content: '5.9'
+  },
+  {
+    name: 'Mustard's Maginks',
+    brand: 'DawnrParty',
+    price: '$8',
+    alcohol content: '4.3'
+  }
+];
+
+function DrinkList() {
+  return(
+    <div>
+      {thedudes.map((drink, index) =>
+        <div>
+          <Author
+            name={drink.name}
+            image={drink.image}
+            key={index}
+          />
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default DrinkList;
