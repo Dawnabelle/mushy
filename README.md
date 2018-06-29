@@ -52,6 +52,7 @@ Stress is not kind to my mind.
 ### Known Bugs
 
 _There are many known :bug: at this time, this is a work in progress_
+<div style="text-align:center"><img src="src/assets/SS.png" alt="spock with visor" width="200"></div>
 
 ### Support and contact details
 
