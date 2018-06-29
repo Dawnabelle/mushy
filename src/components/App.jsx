@@ -15,8 +15,10 @@ function App() {
         `
       }</style>
     <div className='appStyle'>
-      <Switch><Route exact="exact" path='/' component={Home}/>
-        <Route path='/drinks' component={DrinkPage}/><Route component={Error404}/>
+      <Switch>
+        <Route exact="exact" path='/' component={Home}/>
+        <Route path='/drinks' component={DrinkPage}/>
+        <Route component={Error404}/>
       </Switch>
     </div>
   </div>);
