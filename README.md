@@ -5,10 +5,10 @@
 #### _React Epicodus Code Review_
 _React - Week 1 React Fundamentals: Tap Room Makeover_
 
-<div style="text-align:center"><img src="src/assets/beer-bottle-makeover.png" alt="spock with visor" width="300"></div>
+<div style="text-align:center"><img src="src/assets/ninkasi-rose.jpeg" alt="Ninkasi beer bottle with pink rose" width="200"></div>
 
 
-View _[New Taproom](https://dawnabelle.github.io/taproom-makeover/)_ online
+View _[New Taproom](https://dawnabelle.github.io/taproom-makeover/)_ online when complete
 
 ### <span style="color: coral">Dawn Mott</span> :sunrise_over_mountains:
 _June 29th, 2018_
@@ -18,51 +18,32 @@ _This app will showcase the features of a fictional taproom <br>_
 
 ### Setup/Installation 
 clone this repository
-<hr>
+<br>
 run `npm install`
 <br>
-`apm install react@0.16.2`
-<br>
-`npm init`
-<br>
-`npm install react@15.5.4 react-dom@15.5.4 --save`
-<br>
-`npm install webpack@3.4.0 --save-dev`
-<br>
-`npm install webpack@3.4.0 -g`
-<br>
-`npm install babel-core@6.24.1 babel-loader@7.0.0 babel-preset-es2015@6.24.1 babel-preset-react@6.24.1 --save-dev`
-<br>
-`npm install prop-types@15.5.10 --save`
-<br>
-`npm install webpack-dev-server@2.5.0 -g`
-<br>
-`npm install webpack-dev-server@2.5.0 --save-dev`
-<br>
-`npm install react-hot-loader@3.0.0-beta.7 --save-dev`
-<br>
-`npm install html-webpack-plugin@2.29.0 --save-dev`
-<br>
-`npm install eslint -g`
-<br>
-`npm install eslint-plugin-react -g`
-<br>
-`npm install eslint --save-dev`
-<br>
-`eslint --init`
-<br>
-`eslint src/** src/**/**`
-<br>
-`npm install eslint-loader --save-dev`
+run `npm start`
+
+### Requirements
+MVP - Patron View
+* List/menu of all available kegs
+* Keg - name, brand, price and alcohol content
+* Pints remaining in a keg - full keg 124 pints
+* Color-coded prices for easy readability
+*  Display stronger beers vs weaker beers
+* 404 error 
+
+Stretch - Employee View 
+* Click button next to a keg to sell a pint - decrease pints by 1
+* Less than 10 pints warning
+* Edit keg properties
+* Form to add new keg to the list
 
 ### Notes
+
+<div style="text-align:center"><img src="src/assets/fruit-beer.jpg" alt="beer bottle and glass with fruit" width="200"></div>
+
 Stress is not kind to my mind.
 
-I don't remember making this project. I vaguely remember working with Kayl. Yippee
-
-I remember that components are made up of sections that logically go together. We shall see how I feel about React in 7 hours.
-
-Building component structure in Sketch.
 
 ### Known Bugs
 
@@ -76,7 +57,7 @@ _If you'd like to chat, please contact_ @dawnrparty _on_ ![alt text][1.1]
 
 _HTML, CSS, SASS, Flex Box, and flattery_
 
-<div style="text-align:center"><img src="https://i.gifer.com/HysY.gif" alt="spock with visor" width="300"></div>
+<div style="text-align:center"><img src="https://i.gifer.com/HysY.gif" alt="spock with visor" width="200"></div>
 
 ### License
 
