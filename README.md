@@ -52,7 +52,14 @@ run `npm install`
 <br>
 `npm install eslint-loader --save-dev`
 
+### Notes
+Stress is not kind to my mind.
 
+I don't remember making this project. I vaguely remember working with Kayl. Yippee
+
+I remember that components are made up of sections that logically go together. We shall see how I feel about React in 7 hours.
+
+Building component structure in Sketch.
 
 ### Known Bugs
 
