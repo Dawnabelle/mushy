@@ -7,8 +7,8 @@ function NavBar(){
       <style jsx>{`
           .NavBarStyle {
             display: flex;
-            justify-content: space-around; text-decoration: none;  
-          } .NavBarStyle:after { text-decoration: none; }
+            justify-content: space-around; }
+           .NavBarStyle:after { text-decoration: none; }
           `}
       </style>
 

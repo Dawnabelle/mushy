@@ -12,7 +12,8 @@ function DrinkPage() {
             background-color: coral;
           }
            `
-        }</style>
+        }
+      </style>
       <div>
         <NavBar/>
         <DrinkList/>
