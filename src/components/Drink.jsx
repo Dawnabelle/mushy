@@ -17,11 +17,10 @@ function Drink(props){
 }
 
 Drink.propTypes = {
-  name: PropTypes.string.isRequired
-  brand: PropTypes.string.isRequired
-  price: PropTypes.string.isRequired
+  name: PropTypes.string.isRequired,
+  brand: PropTypes.string.isRequired,
+  price: PropTypes.string.isRequired,
   alcoholContent: PropTypes.string.isRequired
-  
 };
 
 export default Drink;
