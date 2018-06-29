@@ -4,6 +4,13 @@ import PropTypes from 'prop-types';
 function Drink(props){
   return (
     <div>
+      <style jsx>{`
+          .drinkView {
+            display: flex;
+            background-color: coral;
+          }
+          `}
+      </style>
       <div className='drinkView'>
       </div>
       <div>

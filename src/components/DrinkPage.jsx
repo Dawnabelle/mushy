@@ -5,10 +5,20 @@ import NavBar from './NavBar';
 function DrinkPage() {
   return (
     <div>
-      <NavBar/>
-      <DrinkList/>
+      <style jsx="jsx">
+        {
+          ` .NavStyle {
+            display: flex;
+            background-color: coral;
+          }
+           `
+        }</style>
+      <div>
+        <NavBar/>
+        <DrinkList/>
+      </div>
     </div>
-  );
+    );
 }
 
 export default DrinkPage;
