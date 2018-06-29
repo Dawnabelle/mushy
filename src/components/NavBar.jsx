@@ -6,8 +6,8 @@ function NavBar(){
   return(
     <div>
       <div className='NavBarStyle'>
-        <Link to="/">Home</Link>
-        <Link to="/drink">Drink List</Link>
+        <Link to='/'>Home</Link>
+        <Link to='/drinks'>Drink List</Link>
       </div>
     </div>
   );
