@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar';
-import bar from '../assets/bar.jpg';
+import night from '../assets/night.jpg';
 
 function Home() {
   return (<div>
@@ -11,8 +11,11 @@ function Home() {
             text-align: center;
             margin: auto;
             color: white;
-            background-image: url(${bar});
-            height: 2000px; padding: 50px;
+            background-image: url(${night});
+            height: 1000px; 
+            padding: 50px;
+            background-size: contain;
+            background-repeat: no-repeat;
           }
            `
         }</style>
