@@ -12,7 +12,7 @@ function Error404(props) {
         ` .appStyle {
           text-align: center;
           margin: auto;
-          color: white;
+          color: teal;
           background-image: url(${stars});
           height: 2000px;
         }
@@ -21,6 +21,10 @@ function Error404(props) {
           object-fit:cover;
           width: 50%;
           padding-top: 50px;
+          opacity: .8;
+        }
+        .img:hover {
+          opacity: .5;
         }
          `
       }
@@ -28,8 +32,8 @@ function Error404(props) {
     <div>
       <img className="img" src={cryingDonkey}/>
     </div>
-    <h2>The page {props.location.pathname} cannot be found!</h2>
-    <h3>Would you like to return <Link to="/"> home </Link> instead?</h3>
+    <h2>You made the donkey cry.</h2>
+    <h3>Would you like to return <Link to="/"> home </Link> and leave them in peace?</h3>
   </div>);
 }
 

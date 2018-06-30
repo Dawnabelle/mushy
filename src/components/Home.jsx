@@ -12,7 +12,7 @@ function Home() {
             margin: auto;
             color: white;
             background-image: url(${night});
-            height: 1000px; 
+            height: 1000px;
             padding: 50px;
             background-size: contain;
             background-repeat: no-repeat;
@@ -20,8 +20,7 @@ function Home() {
            `
         }</style>
     </div>
-
-    <h1>Cabot Cove's Finest</h1>
+    <h1>Drink here if you hate React!</h1>
     <NavBar/>
   </div>);
 }
