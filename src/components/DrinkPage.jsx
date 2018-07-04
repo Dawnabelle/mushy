@@ -19,7 +19,7 @@ function DrinkPage() {
         <DrinkList/>
       </div>
     </div>
-    );
+  );
 }
 
 export default DrinkPage;

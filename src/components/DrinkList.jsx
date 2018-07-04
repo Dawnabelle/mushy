@@ -50,10 +50,11 @@ function DrinkList() {
           brand={drink.brand}
           price={drink.price}
           alcoholContent={drink.alcoholContent}
-          pintsRemaining={drink.pintsRemaining} key={index}/>
+          pintsRemaining={drink.pintsRemaining}
+          key={index}/>
       </div>)
     }
-  </div>)
+  </div>);
 }
 
 export default DrinkList;
