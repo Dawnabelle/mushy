@@ -43,18 +43,19 @@ const drinks = [
 ];
 
 function DrinkList() {
-  return (<div>
-    {
-      drinks.map((drink, index) => <div>
-        <Drink name={drink.name}
-          brand={drink.brand}
-          price={drink.price}
-          alcoholContent={drink.alcoholContent}
-          pintsRemaining={drink.pintsRemaining}
-          key={index}/>
-      </div>)
-    }
-  </div>);
+  return (
+    <div>
+      {
+        drinks.map((drink, index) => <div>
+          <Drink name={drink.name}
+            brand={drink.brand}
+            price={drink.price}
+            alcoholContent={drink.alcoholContent}
+            pintsRemaining={drink.pintsRemaining}
+            key={index}/>
+        </div>)
+      }
+    </div>);
 }
 
 export default DrinkList;

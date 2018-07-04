@@ -15,7 +15,6 @@ function NavBar(){
           }
         `}
       </style>
-
       <div className='NavBarStyle'>
         <Link to='/'>Home</Link>
         <Link to='/drinks'>Drink List</Link>

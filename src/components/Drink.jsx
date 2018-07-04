@@ -1,23 +1,28 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Drink(props){
-  return (
-    <div>
+function Drink(props) {
+  function handleSellPint() {
+    props.pintsRemaining = props.pintsRemaining -= 1;
+  }
+
+  const drinkInfo =
+
+    <div className="pintInfo">
       <div>
         <p>{props.name}</p>
-        <p>{props.brand}</p>
-        <p>{props.price}</p>
-        <p>{props.alcoholContent}</p>
+        <p>Brewery: {props.brand}</p>
+        <p>Price: {props.price}</p>
+        <p>Alcohol Content: {props.alcoholContent}</p>
+        <p>Pints Remaining: {props.pintsRemaining}</p>
       </div>
+    </div>;
+
+    return (
       <div>
-        <p>{props.pintsRemaining}</p>
-        <button onClick={Drink.sellPint}>Sell</button>
-      </div>
-      function sellPint(drink){
-        Drink.pintsRemaining = Drink.pintsRemaining - 1};
-    </div>
-  );
+        {drinkInfo}
+        <button onClick={handleSellPint}>Bye Bye Pint</button>
+      </div>)
 }
 
 Drink.propTypes = {
