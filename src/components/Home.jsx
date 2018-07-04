@@ -20,8 +20,10 @@ function Home() {
            `
         }</style>
     </div>
-    <h1>Dawn's Bar</h1>
-    <h2>Where you come when React brings you to drink!</h2>
+    <div>
+      <h1>Dawn's Bar</h1>
+      <h2>Where you come when React brings you to drink!</h2>
+    </div>
     <NavBar/>
   </div>);
 }

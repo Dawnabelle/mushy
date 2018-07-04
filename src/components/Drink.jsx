@@ -12,9 +12,10 @@ function Drink(props) {
     <style jsx>
       {`
         .pintInfo {
-          display: flex;
-          justify-content: space-between;
-          padding: 10px 100px;
+          padding: 10px 40px;
+          background-color: rgba(222, 127, 33, .9);
+          max-width: 50%;
+          margin: auto;
         }
         .sellButton {
           max-height: 30px;

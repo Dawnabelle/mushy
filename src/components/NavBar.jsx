@@ -7,17 +7,18 @@ function NavBar(){
       <style jsx>
         {`
           .NavBarStyle {
-            display: flex;
-            justify-content: space-around;
+            margin: auto;
+            text-decoration: none;
           }
-          .NavBarStyle:after {
+          .navButtons {
+            color: white;
             text-decoration: none;
           }
         `}
       </style>
       <div className='NavBarStyle'>
-        <Link to='/'>Home</Link>
-        <Link to='/drinks'>Drink List</Link>
+        <Link className="navButtons" to='/'>Home</Link><span> | </span>
+        <Link className="navButtons" to='/drinks'>Drink List</Link>
       </div>
     </div>
   );
