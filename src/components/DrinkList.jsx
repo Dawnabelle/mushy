@@ -47,7 +47,8 @@ function DrinkList() {
     <div>
       {
         drinks.map((drink, index) => <div>
-          <Drink name={drink.name}
+          <Drink
+            name={drink.name}
             brand={drink.brand}
             price={drink.price}
             alcoholContent={drink.alcoholContent}
