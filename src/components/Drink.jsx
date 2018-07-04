@@ -21,7 +21,7 @@ function Drink(props) {
     return (
       <div>
         {drinkInfo}
-        <button onClick={handleSellPint}>Bye Bye Pint</button>
+        <button onClick={() => this.props.handleSellPint(Drink)}>Bye Bye Pint</button>
       </div>)
 }
 
