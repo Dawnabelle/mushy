@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function NewDrinkForm(props) {
   let _name = null;
@@ -8,9 +9,9 @@ function NewDrinkForm(props) {
   let _pintsRemaining = null;
 
   function handleNewDrinkFormSubmit(e) {
-    event.preventDefault();
+    e.preventDefault();
 
-    props.onNewDrinkCreation{
+    props.onNewDrinkCreation {
       name: _name.value,
       brand: _brand.value,
       price: _price.value,
@@ -22,7 +23,7 @@ function NewDrinkForm(props) {
     _price.value = '';
     _alcoholContent.value = '';
     _pintsRemaining.value = '';
-  }
+  };
 
   return (
     <div>

@@ -25,9 +25,6 @@ function Drink(props) {
     </style>
     <div className="pintInfo">
       <div>
-        {props.image}
-      </div>
-      <div>
         <p>{props.name}</p>
         <p>Brewery: {props.brand}</p>
         <p>Price: {props.price}</p>

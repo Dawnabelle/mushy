@@ -1,3 +1,4 @@
+import AdminPage from './AdminPage';
 import React from 'react';
 import NavBar from './NavBar';
 import night from '../assets/night.jpg';
@@ -25,6 +26,7 @@ function Home() {
       <h2>Where you come when React brings you to drink!</h2>
     </div>
     <NavBar/>
+    <AdminPage/>
   </div>);
 }
 
