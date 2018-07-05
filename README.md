@@ -20,7 +20,7 @@ _This app will showcase the features of a fictional taproom <br>_
 <div style="text-align:center"><img src="src/assets/component-map.png" alt="sketch of component map" width="200"></div>
 
 
-### Setup/Installation 
+### Setup/Installation
 clone this repository
 <br>
 run `npm install`
@@ -28,19 +28,18 @@ run `npm install`
 run `npm start`
 
 ### Requirements
-MVP - Patron View
-* List/menu of all available kegs
-* Keg - name, brand, price and alcohol content
-* Pints remaining in a keg - full keg 124 pints
+MVP
+* ~~List/menu of all available kegs~~
+* ~~Keg - name, brand, price and alcohol content~~
+* ~~404 error~~
+
+Stretch
+* Form to add new keg to the list
+* Click button next to a keg to sell a pint - decrease pints by 1
 * Color-coded prices for easy readability
 *  Display stronger beers vs weaker beers
-* 404 error 
-
-Stretch - Employee View 
-* Click button next to a keg to sell a pint - decrease pints by 1
 * Less than 10 pints warning
 * Edit keg properties
-* Form to add new keg to the list
 
 ### Notes
 
