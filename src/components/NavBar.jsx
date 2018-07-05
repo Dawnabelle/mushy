@@ -11,8 +11,9 @@ function NavBar(){
             text-decoration: none;
           }
           .navButtons {
-            color: white;
+            color: teal;
             text-decoration: none;
+            font-size: 1.5em;
           }
         `}
       </style>

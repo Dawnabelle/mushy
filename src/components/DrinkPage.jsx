@@ -14,7 +14,7 @@ function DrinkPage() {
             background-image: url(${foam});
           }
           .homeStyle h1 {
-
+            padding-top: 10px;
           }
            `
         }
