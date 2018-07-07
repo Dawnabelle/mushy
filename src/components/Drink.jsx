@@ -13,7 +13,7 @@ class Drink extends React.Component {
   onSellPint() {
     this.setState({
       pintsRemaining: this.state.pintsRemaining - 1
-    })
+    });
   }
 
   render() {

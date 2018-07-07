@@ -35,10 +35,10 @@ function Home() {
     <div>
       <DrinkPage/>
       <img src={night}/>
-        <img src={pdx}/>
-        <img src={field}/>
-      </div>
-    </div>);
+      <img src={pdx}/>
+      <img src={field}/>
+    </div>
+  </div>);
 }
 
 export default Home;
