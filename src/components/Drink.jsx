@@ -2,8 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Drink(props) {
-  function handleSellPint(Drink) {
-    props.pintsRemaining = props.pintsRemaining -= 1;
+
+  function handleSellPint() {
+    // props.pintsRemaining = props.pintsRemaining -= 1;
+    console.log("Hello, this is props", props);
   }
 
   const drinkInfo = (<div>
@@ -45,7 +47,7 @@ function Drink(props) {
 
   return (<div className="pintInfo">
     {drinkInfo}
-    <button className="sellButton" onClick={() => this.props.handleSellPint(Drink)}>
+    <button className="sellButton" onClick={() => handleSellPint()}>
       Bye Bye Pint
     </button>
   </div>);

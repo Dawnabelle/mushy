@@ -1,7 +1,6 @@
 import React from 'react';
 
 import DrinkPage from './DrinkPage';
-import NavBar from './NavBar';
 
 import night from '../assets/night.jpg';
 import pdx from '../assets/pdx.jpg';
@@ -10,19 +9,16 @@ import field from '../assets/field.jpg';
 function Home() {
   return (<div>
     <div>
-      <style jsx="jsx">
+      <style jsx>
         {
-          ` body {
-            background-image: url(${night});
-          }
+          `
           .appStyle {
             text-align: center;
             margin: auto;
             color: white;
-            background-image: url(${night});
             height: 1000px;
             padding: 50px;
-            background-size: contain;
+            background-size: cover;
             background-repeat: no-repeat;
           }
            `
@@ -36,9 +32,8 @@ function Home() {
         Where you come when React drives you to drink!
       </h2>
     </div>
-    <NavBar/>
-      <DrinkPage/>
     <div>
+      <DrinkPage/>
       <img src={night}/>
         <img src={pdx}/>
         <img src={field}/>
