@@ -3,11 +3,6 @@ import PropTypes from 'prop-types';
 
 function Drink(props) {
 
-  function handleSellPint() {
-    // props.pintsRemaining = props.pintsRemaining -= 1;
-    console.log("Hello, this is props", props);
-  }
-
   const drinkInfo = (<div>
     <style jsx>
       {
@@ -47,7 +42,7 @@ function Drink(props) {
 
   return (<div className="pintInfo">
     {drinkInfo}
-    <button className="sellButton" onClick={() => handleSellPint()}>
+    <button className="sellButton" onClick={() => props.handleSellPint()}>
       Bye Bye Pint
     </button>
   </div>);
