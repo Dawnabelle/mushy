@@ -49,12 +49,7 @@ class DrinkList extends React.Component {
     this.state = {
       drinks,
     };
-    this.onSellPint = this.onSellPint.bind(this);
-  }
-
-  onSellPint(drink) {
-    console.log("Yeah, I sould a Pintah!");
-  
+    // this.onSellPint = this.onSellPint.bind(this);
   }
 
   render() {
@@ -70,7 +65,6 @@ class DrinkList extends React.Component {
                 alcoholContent={drink.alcoholContent}
                 pintsRemaining={drink.pintsRemaining}
                 key={index}
-                handleSellPint={this.onSellPint}
               />
             </div>
           ))
