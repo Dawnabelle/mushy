@@ -1,6 +1,5 @@
 import React from 'react';
 
-import AdminPage from './AdminPage';
 import DrinkPage from './DrinkPage';
 import Home from './Home';
 
@@ -10,7 +9,7 @@ import {Switch, Route} from 'react-router-dom';
 function App() {
   return (
     <div>
-      <style jsx="jsx">
+      <style jsx>
         {
           ` .appStyle {
             margin: 0;
@@ -23,10 +22,9 @@ function App() {
       </style>
       <div className='appStyle'>
         <Switch>
-          <Route exact='exact' path='/' component={Home}/>
+          <Route exact path='/' component={Home}/>
           <Route path='/drinks' component={DrinkPage}/>
-          <Route path='/admin' component={AdminPage}/>
-          <Route path='/add' render={() => <NewDrinkControl onNewDrinkCreation={this.handleNewDrinkFormSubmit} } />
+          <Route path='/add' render={() => <NewDrinkForm onNewDrinkCreation={this.handleNewDrinkFormSubmit}/> } />
           <Route component={Error404}/>
         </Switch>
       </div>

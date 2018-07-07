@@ -1,14 +1,21 @@
-import AdminPage from './AdminPage';
 import React from 'react';
+
+import DrinkPage from './DrinkPage';
 import NavBar from './NavBar';
+
 import night from '../assets/night.jpg';
+import pdx from '../assets/pdx.jpg';
+import field from '../assets/field.jpg';
 
 function Home() {
   return (<div>
     <div>
       <style jsx="jsx">
         {
-          ` .appStyle {
+          ` body {
+            background-image: url(${night});
+          }
+          .appStyle {
             text-align: center;
             margin: auto;
             color: white;
@@ -22,12 +29,21 @@ function Home() {
         }</style>
     </div>
     <div>
-      <h1>Dawn's Bar</h1>
-      <h2>Where you come when React brings you to drink!</h2>
+      <h1>
+        Dawn's Bar
+      </h1>
+      <h2>
+        Where you come when React drives you to drink!
+      </h2>
     </div>
     <NavBar/>
-    <AdminPage/>
-  </div>);
+      <DrinkPage/>
+    <div>
+      <img src={night}/>
+        <img src={pdx}/>
+        <img src={field}/>
+      </div>
+    </div>);
 }
 
 export default Home;

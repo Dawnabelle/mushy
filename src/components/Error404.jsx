@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import cryingDonkey from '../assets/crying-donkey.gif';
 import stars from '../assets/stars.jpg';
@@ -30,16 +30,36 @@ function Error404() {
         }
       </style>
       <div>
-        <img className="img" src={cryingDonkey}/>
+        <img className="img" src={cryingDonkey} />
       </div>
-      <h2>You made the donkey cry.</h2>
-      <h3>Would you like to return <Link to="/"> home </Link> and leave them in peace?</h3>
-      <h3>Or would you like to <Link to="/drinks"> drink </Link> now?</h3>
+      <h2>
+You made the donkey cry.
+      </h2>
+      <h3>
+Would you like to return
+        <Link to="/">
+          {' '}
+home
+          {' '}
+        </Link>
+        {' '}
+and leave them in peace?
+      </h3>
+      <h3>
+Or would you like to
+        <Link to="/drinks">
+          {' '}
+drink
+          {' '}
+        </Link>
+        {' '}
+now?
+      </h3>
     </div>);
 }
 
 Error404.propTypes = {
-  location: PropTypes.object
+  location: PropTypes.object,
 };
 
 export default Error404;

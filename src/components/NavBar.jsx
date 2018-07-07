@@ -1,8 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-function NavBar(){
-  return(
+function NavBar() {
+  return (
     <div>
       <style jsx>
         {`
@@ -17,9 +17,18 @@ function NavBar(){
           }
         `}
       </style>
-      <div className='NavBarStyle'>
-        <Link className="navButtons" to='/'>Home</Link><span> | </span>
-        <Link className="navButtons" to='/drinks'>Drink List</Link>
+      <div className="NavBarStyle">
+        <Link className="navButtons" to="/">
+Home
+        </Link>
+        <span>
+          {' '}
+|
+          {' '}
+        </span>
+        <Link className="navButtons" to="/drinks">
+Drink List
+        </Link>
       </div>
     </div>
   );
