@@ -8,8 +8,6 @@ _React - Week 1 React Fundamentals: Tap Room Makeover_
 <div style="text-align:center"><img src="src/assets/ninkasi-rose.jpeg" alt="Ninkasi beer bottle with pink rose" width="200"></div>
 
 
-View _[New Taproom](https://dawnabelle.github.io/taproom-makeover/)_ online when complete
-
 ### <span style="color: coral">Dawn Mott</span> :sunrise_over_mountains:
 _June 29th, 2018_
 
