@@ -25,16 +25,11 @@ function Home() {
         }</style>
     </div>
     <div>
-      <h1>
-        Dawn's Bar
-      </h1>
-      <h2>
-        Where you come when React drives you to drink!
-      </h2>
+      <h1>Dawn's Bar</h1>
+      <h2>Where you come when React drives you to drink!</h2>
     </div>
     <div>
       <DrinkPage/>
-      <img src={night}/>
       <img src={pdx}/>
       <img src={field}/>
     </div>

@@ -32,28 +32,15 @@ function Error404() {
       <div>
         <img className="img" src={cryingDonkey} />
       </div>
-      <h2>
-You made the donkey cry.
-      </h2>
-      <h3>
-Would you like to return
+      <h2>You made the donkey cry.</h2>
+      <h3>Would you like to return
         <Link to="/">
           {' '}
-home
+          home
           {' '}
         </Link>
-        {' '}
-and leave them in peace?
-      </h3>
-      <h3>
-Or would you like to
-        <Link to="/drinks">
           {' '}
-drink
-          {' '}
-        </Link>
-        {' '}
-now?
+          and leave them in peace?
       </h3>
     </div>);
 }

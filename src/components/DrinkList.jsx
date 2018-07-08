@@ -49,7 +49,6 @@ class DrinkList extends React.Component {
     this.state = {
       drinks,
     };
-    // this.onSellPint = this.onSellPint.bind(this);
   }
 
   render() {
