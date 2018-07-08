@@ -17,7 +17,7 @@ _June 29th, 2018_
 _This app will showcase the features of a fictional taproom <br>_
 
 ### MVP Component Map
-<div style="text-align:center"><img src="src/assets/component-map.png" alt="sketch of component map" width="200"></div>
+<div style="text-align:center"><img src="src/assets/component-map.jpg" alt="sketch of component map" width="200"></div>
 
 
 ### Setup/Installation
