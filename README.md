@@ -5,7 +5,7 @@
 #### _React Epicodus Code Review_
 _React - Week 1 React Fundamentals: Tap Room Makeover_
 
-<div style="text-align:center"><img src="src/assets/ninkasi-rose.jpeg" alt="Ninkasi beer bottle with pink rose" width="200"></div>
+<div style="text-align:center"><img src="src/assets/tap.jpg.png" alt="screen shot of site" width="200"></div>
 
 
 ### <span style="color: coral">Dawn Mott</span> :sunrise_over_mountains:
