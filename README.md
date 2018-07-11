@@ -9,10 +9,10 @@ _June 29th, 2018_
 _React - Week 1 React Fundamentals: Tap Room Makeover_
 
 Home page and drink list
-<div style="text-align:center"><img src="src/assets/tap.jpg.png" alt="screen shot of site" width="200"></div>
+<div style="text-align:center"><img src="src/assets/tap.jpg.png" alt="screen shot of site" width="400"></div>
 
 Error 404 page
-<div style="text-align:center"><img src="src/assets/donkey-page.png" alt="screen shot of site" width="200"></div>
+<div style="text-align:center"><img src="src/assets/donkey-page.png" alt="screen shot of site" width="400"></div>
 
 ### Description
 _This app showcases the features of a fictional taproom. Number of pints decreases by one with button click.<br>_
